@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(117, 103, 70, 0.9);  
+    font-family: 'Montserrat'; font-size: 14px;
+  }
+.grid-container {
+    padding: 0%;
+    display: grid;
+    grid-template-areas: 'head'
+                            ;
+}
+.div1 {
+    grid-area: head;
+    border: 2px double rgb(77, 67, 46);
+    padding-top: 0%;
+    background-color:rgba(158, 139, 95, 0.62);
+    text-align: center;
+    font-size: 500%;
+    color: rgba(234, 206, 141, 0.92);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+.pic3{
+    height: 5%;
+    width: 5%;
+}
+.pic4{
+    padding-left: 80%;
+    height: 5%;
+    width: 5%;
+}
+.pic5{
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+.pic6{
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}

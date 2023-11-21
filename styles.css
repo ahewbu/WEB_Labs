@@ -1,0 +1,69 @@
+body{
+    
+    padding: 0;
+    margin: 0;
+    background-color: rgba(117, 103, 70, 0.9);  
+    font-family: 'Montserrat'; font-size: 14px;
+}
+.grid-container {
+
+    display: grid;
+    grid-template-areas: 'info pic'
+                            'info name';
+}
+
+.div1 {
+
+    grid-area: name;
+    border: 2px double rgb(77, 67, 46, 0.9);
+    padding-top: 10%;
+    background-color:rgba(158, 139, 95, 0.9);
+    text-align: center;
+    font-size: 350%;
+    color: rgba(234, 206, 141, 0.9);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.div2 {
+
+    grid-area: pic;
+    border: 3px double rgb(77, 67, 46, 0.9);
+    background-color: rgba(117, 103, 70, 0.9);
+}
+.div3 {
+    grid-area: info;
+    border: 2px double rgb(77, 67, 46);
+    background-color: rgba(117, 103, 70);
+    color: rgba(234, 206, 141, 0.92);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.name{
+    font-size: 350%;
+    text-align: center;
+}
+.chars{
+    padding-left: 5%;
+    font-size: 250%;
+    text-align: left;
+}
+.pic1{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.sampletext{
+    padding-left: 2%;
+    font-size: 200%;
+}
+.pic2{
+    height: 27%;
+    width: 27%;
+}
+.pic3{
+    height: 5%;
+    width: 5%;
+}
+.pic4{
+    padding-left: 80%;
+    height: 5%;
+    width: 5%;
+}
